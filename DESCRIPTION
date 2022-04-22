@@ -1,13 +1,17 @@
 Package: creatingPackages
 Title: First package trial 
 Version: 0.0.0.9000
-Authors@R: 
-    person(given  = "Jessica",
-    family = "Gearing",
-    email = "jessica.gearing@qualitasag.ch")
+Authors@R: person("Jessica", "Gearing", email = "jessica.gearing@qualitasag.ch",role = c("aut", "cre"))
 Description: This is my first R package: following the R-Ladies Philly course on youtube.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+URL: https://github.com/jgaqualitasag/creatingPackages
+BugReports: https://github.com/jgaqualitasag/creatingPackages/issues
+Imports: 
+    broom,
+    dplyr,
+    magrittr,
+    rlang,
+    stats
